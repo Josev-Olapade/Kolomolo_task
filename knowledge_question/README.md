@@ -224,6 +224,7 @@ const people: Person[] = ["Tom", "Kate"].map((name: string) => ({
 console.log(people);
 ```
 
+
 The code doesn’t work as expected because when you pull out the getId method using destructuring, it loses its connection to the class. That means when it tries to use this.lastId, it no longer knows what this is — so it doesn’t count properly.
 
 To fix it, I’d just call the method directly from the class instance, like idGenerator.getId(), so it keeps the right context.
@@ -235,3 +236,4 @@ const people: Person[] = ["Tom", "Kate"].map((name) => ({
   name,
   id: idGenerator.getId(),
 }));
+```
