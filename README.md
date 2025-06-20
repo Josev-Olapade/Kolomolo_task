@@ -17,5 +17,5 @@ This project combines two main parts:
 
 
 ---
-
+```
 Copyright (c) 2025 Joseph Olapade
