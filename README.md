@@ -14,8 +14,3 @@ This project combines two main parts:
 2. **Knowledge Questions & Answers** — Clear explanations of important TypeScript concepts and coding patterns.
 
 
-
-
----
-```
-Copyright (c) 2025 Joseph Olapade
