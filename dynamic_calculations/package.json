@@ -1,0 +1,31 @@
+{
+  "name": "task1",
+  "version": "1.0.0",
+  "description": "First task - calculate",
+  "main": "index.ts",
+  "engines": {
+    "node": "16"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest",
+    "format": "prettier --write .",
+    "start:dynamo": "java -D\"java.library.path=./DynamoDBLocal/DynamoDBLocal_lib\" -jar ./DynamoDBLocal/DynamoDBLocal.jar -port 9100 -sharedDb"
+  },
+  "author": "Kolomolo",
+  "license": "ISC",
+  "devDependencies": {
+    "@shelf/jest-dynamodb": "^3.4.4",
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "prettier": "^2.8.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1263.0"
+  }
+}
