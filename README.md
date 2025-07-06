@@ -3,9 +3,7 @@
 In this repository is the solution to TypscriptTest by Kolomolo
 
 
-## Expression Tree & Knowledge Project
-
-### Overview
+## Overview
 
 This project combines three main parts:
 
